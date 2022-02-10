@@ -11,10 +11,7 @@ import { useHistory } from 'react-router-dom'
 import BillEntryAuditing from './BillEntryAuditing/BillEntryAuditing'
 import Shortagebook from "./ShortageBook/Shortagebook";
 
-
-
 function App() {
-
 
   const [Userdata, setUserdata] = useState({ user: { name: '', phone: '', password: '' } })
   // const [isAuth, setIsAuth] = useState(false)
