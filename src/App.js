@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Router>
+      <Router basename="https://kishan030.github.io/SNP/">
         <Switch>
 
           {/* <ProtectedRoute exact path='/' component={Dashboard} isAuth={isAuth} /> */}
