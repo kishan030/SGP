@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Router basename="https://kishan030.github.io/SNP/">
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
 
           {/* <ProtectedRoute exact path='/' component={Dashboard} isAuth={isAuth} /> */}
