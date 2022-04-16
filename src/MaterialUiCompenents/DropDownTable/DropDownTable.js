@@ -102,7 +102,6 @@ export default function DropDownTable({ batches }) {
 
     function seperateBatches(batches) {
         for (let i = 0; i < batches.length; i++) {
-            console.log("odd even", oddOrEven(i))
             if (oddOrEven(i) === "even") {
                 newBatch.push(batches[i])
             } else {

@@ -2,6 +2,8 @@ import React from 'react'
 import { FaBook } from 'react-icons/fa';
 import { FaSearchengin } from 'react-icons/fa';
 import { FaEdit } from 'react-icons/fa'
+import { FaBell } from 'react-icons/fa'
+
 
 export const Sidebardata = [
     {
@@ -31,6 +33,12 @@ export const Sidebardata = [
         title: "Product Editing",
         icon: <FaEdit />,
         link: "/searchitem",
+        dropdown: false
+    },
+    {
+        title: "Product Reminder",
+        icon: <FaBell />,
+        link: "/productreminder",
         dropdown: false
     },
 ]

@@ -10,6 +10,7 @@ import Bootstrap from './Bootstrap/Bootstrap'
 import { useHistory } from 'react-router-dom'
 import BillEntryAuditing from './BillEntryAuditing/BillEntryAuditing'
 import Shortagebook from "./ShortageBook/Shortagebook";
+import ProductReminder from "./ProductReminder/ProductReminder";
 
 function App() {
 
@@ -71,8 +72,13 @@ function App() {
             <Shortagebook />
           </Route>
 
+          <Route path='/productreminder' >
+            <ProductReminder></ProductReminder>
+          </Route>
+
         </Switch>
       </Router>
+
     </div>
   );
 
